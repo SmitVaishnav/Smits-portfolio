@@ -92,7 +92,14 @@ function Header() {
               get in touch
             </h3>
             <h1 className="font-['Matter'] font-normal text-[3vw] text-zinc-900">
-              smitvaishnav003@gmail.com
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=smitvaishnav003@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-zinc-900"
+              >
+                smitvaishnav003@gmail.com
+              </a>
             </h1>
           </div>
           <div className="w-1/2 h-full flex flex-col mt-[15%] px-10 gap-5">
@@ -170,10 +177,6 @@ const VARIANTS = {
 };
 
 export default Header;
-
-
-
-
 
 // import React, { useEffect, useState } from "react";
 // import { motion, MotionConfig } from "framer-motion";

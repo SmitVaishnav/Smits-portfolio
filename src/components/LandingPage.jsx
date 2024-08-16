@@ -155,13 +155,13 @@ const LandingPage = () => {
 
   return (
     <div ref={divRef} className="w-full h-screen relative overflow-hidden rounded-b-[4vw]">
-      {/* {isBlobVisible && (
+      {isBlobVisible && (
         <div
           className="blob flex justify-center align-center w-[500px] h-[500px] rounded-full bg-gradient-to-r from-yellow-500 to-purple-500 blur-[250px] transition-all ease-out duration-500 absolute pointer-events-none"
           ref={cursorRef}
           style={{ top: 0, left: 0 }}
         ></div>
-      )} */}
+      )}
       <div className="flex">
         <div className="w-1/2 h-screen content-center pl-10 text-[5.5vw] tracking-tighter leading-snug font-bold font-['Antique_Olive']">
           <motion.div className="relative w-full text-zinc-300">

@@ -101,10 +101,8 @@ const Footer = () => {
       <div className="bg-red-600 col-span-2"></div>
       <div className="bg-pink-600 col-span-2"></div>
     </form>
-    
   </div>
 </div>
-
   );
 };
 
@@ -119,7 +117,6 @@ export default Footer;
 //             <h3 className="font-['Matter'] text-white/90">Get in touch</h3>
 //           </div>
 //         </div>
-
 //         <div className="px-5 text-lg">
 //           <div className="flex gap-5 py-3 mt-1 border-b-[1px] border-zinc-100/30">
 //             <h1 className="text-white/90">To</h1>

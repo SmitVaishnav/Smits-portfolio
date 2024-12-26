@@ -39,7 +39,7 @@ function Header() {
           : { width: "100vw", height: "7rem" }
       }
       transition={{ ease: [0.22, 1, 0.36, 1], duration: 1 }}
-      className="z-50 fixed font-['Antique_Olive'] tracking-tight font-bold text-[2.5vw] px-12 bg-transparent"
+      className="z-50 fixed font-['Antique_Olive_Std'] tracking-tight font-bold text-[2.5vw] px-12 bg-transparent"
     >
       <div className="flex items-center justify-between py-7">
         <motion.h1
@@ -88,10 +88,10 @@ function Header() {
       {active && (
         <motion.div className="w-full h-full flex">
           <div className="w-1/2 h-full pt-[70vh]">
-            <h3 className="uppercase font-['Matter'] text-[#A374FF] tracking-widest text-xs font-medium">
+            <h3 className="uppercase font-['matter'] text-[#A374FF] tracking-widest text-xs font-medium">
               get in touch
             </h3>
-            <h1 className="font-['Matter'] font-normal text-[3vw] text-zinc-900">
+            <h1 className="font-['matter'] font-normal text-[3vw] text-zinc-900">
               <a
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=smitvaishnav003@gmail.com"
                 target="_blank"
@@ -113,7 +113,7 @@ function Header() {
                   onClick={handleLinkClick}
                   className="cursor-pointer"
                 >
-                  <h1 className="flex z-[9] text-[7vw] tracking-tighter font-['Antique_Olive'] leading-none text-zinc-900">
+                  <h1 className="flex z-[9] text-[7vw] tracking-tighter font-['Antique_Olive_Std'] leading-none text-zinc-900">
                     {word.split("").map((item, i) => (
                       <motion.span
                         initial={{ x: "300%" }}

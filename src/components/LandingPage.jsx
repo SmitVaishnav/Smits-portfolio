@@ -163,7 +163,7 @@ const LandingPage = () => {
         ></div>
       )}
       <div className="flex">
-        <div className="w-1/2 h-screen content-center pl-10 text-[5.5vw] tracking-tighter leading-snug font-bold font-['Antique_Olive']">
+        <div className="w-1/2 h-screen content-center pl-10 text-[5.5vw] tracking-tighter leading-snug font-bold font-['Antique_Olive_Std']">
           <motion.div className="relative w-full text-zinc-300">
             <h1>I'm Smit,</h1>
             <h1 className="">Software Developer</h1>

@@ -40,7 +40,7 @@ const Marque = () => {
     "flex uppercase overflow-hidden content-center items-center text-7xl text-[#16F1D1] tracking-wider ";
 
   return (
-    <div className='w-screen h-screen bg-zinc-900 font-["Staatliches"] z-50'>
+    <div className='w-screen h-screen bg-zinc-900 font-["staatliches"] z-50'>
       <div className="w-full flex flex-col">
         <div className={`${marqueeClasses} relative`}>
           <Marquee className="w-full" speed={100}>

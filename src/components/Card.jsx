@@ -51,15 +51,15 @@ const Card = () => {
         </div>
         <div className="w-full h-1/3 ">
           <div className="w-full h-2/3 px-5 py-4 ">
-            <h2 className='font-["Matter"] font-semibold text-[2vw] leading-none'>
+            <h2 className='font-["matter"] font-semibold text-[2vw] leading-none'>
               Smit
             </h2>
-            <h3 className="font-['Matter'] uppercase font-medium text-sm tracking-wide">
+            <h3 className="font-['matter'] uppercase font-medium text-sm tracking-wide">
               Imaginary endorser
             </h3>
           </div>
           <div className="w-full h-1/3 content-center px-5 flex">
-            <div className="border-[1.5px] w-1/3 h-1/2 border-zinc-800 rounded-lg font-['Matter'] overflow-hidden font-normal text-md text-center content-center ">
+            <div className="border-[1.5px] w-1/3 h-1/2 border-zinc-800 rounded-lg font-['matter'] overflow-hidden font-normal text-md text-center content-center ">
               <h3 className="">14 Aug 2003</h3>
             </div>
             <div className="w-2/3  h-1/2 flex gap-3 pl-16">

@@ -35,14 +35,14 @@ const Footer = () => {
   
   <div className="-z-1 absolute w-[500px] h-[500px] rounded-full translate-x-[50%] inset-0 bg-gradient-to-r from-yellow-500 via-purple-500 to-red-500 blur-[250px]"></div>
   <div className=" -z-1 absolute w-[500px] h-[500px] rounded-full translate-x-[200%] translate-y-[60%] inset-0 bg-gradient-to-r from-yellow-500 via-teal-500 to-red-500 blur-[250px]"></div>
-  <div className="absolute font-['Matter'] backdrop-blur-3xl shadow-lg container w-full md:w-3/4 lg:w-1/2 h-[80%] md:h-[70%] lg:h-[60%] bg-[#141414]/70 top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl overflow-hidden">
+  <div className="absolute font-['matter'] font-normal backdrop-blur-3xl shadow-lg container w-full md:w-3/4 lg:w-1/2 h-[80%] md:h-[70%] lg:h-[60%] bg-[#141414]/70 top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl overflow-hidden">
     <form className="grid grid-rows-12 h-full" onSubmit={onSubmit}>
       <div className="bg-[#141414] col-span-2 relative w-full items-center px-3 flex gap-[5px]">
         <span className="w-[14px] h-[14px] rounded-full bg-red-500"></span>
         <span className="w-[14px] h-[14px] rounded-full bg-yellow-500"></span>
         <span className="w-[14px] h-[14px] rounded-full bg-zinc-600"></span>
         <div className="absolute w-full h-full text-center content-center">
-          <h3 className="font-['Matter'] text-white/90">Get in touch</h3>
+          <h3 className="font-['matter'] text-white/90">Get in touch</h3>
         </div>
       </div>
       <div className="col-span-2 px-5 border-b-[1px] text-lg content-center border-zinc-100/10">

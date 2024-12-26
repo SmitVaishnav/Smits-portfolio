@@ -138,3 +138,45 @@ input:-webkit-autofill:active {
     }
   
   }
+
+
+  @font-face {
+    font-family: "matter";
+    src: url("./fonts/Matter-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "matter";
+    src: url("./fonts/Matter-Heavy.ttf") format("truetype");
+    font-weight: heavy;
+  }
+  @font-face {
+    font-family: "matter";
+    src: url("./fonts/Matter-Light.ttf") format("truetype");
+    font-weight: light;
+  }
+  @font-face {
+    font-family: "matter";
+    src: url("./fonts/Matter-Medium.ttf") format("truetype");
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: "matter";
+    src: url("./fonts/Matter-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "matter";
+    src: url("./fonts/Matter-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Antique_Olive_Std";
+    src: url("./fonts/Antique-Olive-Std-Bold_3863.ttf") format("truetype");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "staatliches";
+    src: url("./fonts/Staatliches-Regular.ttf") format("truetype");
+    font-weight: regular;
+  }

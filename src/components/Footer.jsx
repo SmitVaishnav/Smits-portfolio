@@ -106,9 +106,7 @@ const Footer = () => {
   );
 };
 
-export default Footer;
-
-// <div className="absolute grid font-['Matter'] backdrop-blur-3xl shadow-lg container w-full md:w-3/4 lg:w-1/2 h-[80%] md:h-[70%] lg:h-[60%] bg-[#141414]/70 top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl overflow-hidden">
+export default Footer;// <div className="absolute grid font-['Matter'] backdrop-blur-3xl shadow-lg container w-full md:w-3/4 lg:w-1/2 h-[80%] md:h-[70%] lg:h-[60%] bg-[#141414]/70 top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 rounded-xl overflow-hidden">
 //         <div className="relative w-full h-11 bg-[#141414] items-center px-3 flex gap-[5px]">
 //           <span className="w-[14px] h-[14px] rounded-full bg-red-500"></span>
 //           <span className="w-[14px] h-[14px] rounded-full bg-yellow-500"></span>
@@ -153,3 +151,4 @@ export default Footer;
 //           </button>
 //         </div>
 //       </div>
+

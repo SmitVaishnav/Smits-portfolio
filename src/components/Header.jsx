@@ -177,7 +177,6 @@ const VARIANTS = {
 };
 
 export default Header;
-
 // import React, { useEffect, useState } from "react";
 // import { motion, MotionConfig } from "framer-motion";
 
@@ -336,3 +335,4 @@ export default Header;
 // };
 
 // export default Header;
+
